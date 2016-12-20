@@ -17,6 +17,17 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+    BOOL yesNo = YES;
+    NSString *str = @"ABC";
+    NSInteger num = 123;
+    float val = 123.45;
+    
+    
+    NSLog(@"YESNO: %d",yesNo);
+    NSLog(@"str: %@", str);
+    NSLog(@"num: %zd",num);
+    NSLog(@"val: %.2f",val);
 }
 
 - (void)didReceiveMemoryWarning {
