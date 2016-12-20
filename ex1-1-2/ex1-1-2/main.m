@@ -2,15 +2,27 @@
 //  main.m
 //  ex1-1-2
 //
-//  Created by ITユーザー on 2016/12/19.
-//  Copyright © 2016年 ITユーザー. All rights reserved.
+//  Created by 佐野浩代 on 2016/12/20.
+//  Copyright © 2016年 佐野浩代. All rights reserved.
 //
 
-#import <UIKit/UIKit.h>
-#import "AppDelegate.h"
+#import <Foundation/Foundation.h>
 
-int main(int argc, char * argv[]) {
-    @autoreleasepool {
-        return UIApplicationMain(argc, argv, nil, NSStringFromClass([AppDelegate class]));
-    }
+int main(int argc, const char * argv[]) {
+    
+    NSArray *fruits = @[ @"strawberry",@"orange",@"apple"];
+    
+    NSDictionary *abc = @{   @"key1":@"Apple",
+                             @"key2":@"Ball",
+                             @"key3":@"Cat",
+                             @"key4":@"Drive"};
+    
+    
+    
+    NSLog(@"%@" , fruits);
+    
+    NSLog(@"%@", abc);
+    
+    return 0;
 }
+
