@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <Scheme
-   LastUpgradeVersion = "0730"
+   LastUpgradeVersion = "0820"
    version = "1.3">
    <BuildAction
       parallelizeBuildables = "YES"
@@ -14,10 +14,10 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7100A5EA1E021B4400CB471D"
-               BuildableName = "stp.app"
-               BlueprintName = "stp"
-               ReferencedContainer = "container:stp.xcodeproj">
+               BlueprintIdentifier = "ACD02CCC1E0AC35D0007A6CF"
+               BuildableName = "ex1-1-4"
+               BlueprintName = "ex1-1-4"
+               ReferencedContainer = "container:ex1-1-4.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -28,34 +28,14 @@
       selectedLauncherIdentifier = "Xcode.DebuggerFoundation.Launcher.LLDB"
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7100A6031E021B4500CB471D"
-               BuildableName = "stpTests.xctest"
-               BlueprintName = "stpTests"
-               ReferencedContainer = "container:stp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
-         <TestableReference
-            skipped = "NO">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "7100A60E1E021B4500CB471D"
-               BuildableName = "stpUITests.xctest"
-               BlueprintName = "stpUITests"
-               ReferencedContainer = "container:stp.xcodeproj">
-            </BuildableReference>
-         </TestableReference>
       </Testables>
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7100A5EA1E021B4400CB471D"
-            BuildableName = "stp.app"
-            BlueprintName = "stp"
-            ReferencedContainer = "container:stp.xcodeproj">
+            BlueprintIdentifier = "ACD02CCC1E0AC35D0007A6CF"
+            BuildableName = "ex1-1-4"
+            BlueprintName = "ex1-1-4"
+            ReferencedContainer = "container:ex1-1-4.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
       <AdditionalOptions>
@@ -75,10 +55,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7100A5EA1E021B4400CB471D"
-            BuildableName = "stp.app"
-            BlueprintName = "stp"
-            ReferencedContainer = "container:stp.xcodeproj">
+            BlueprintIdentifier = "ACD02CCC1E0AC35D0007A6CF"
+            BuildableName = "ex1-1-4"
+            BlueprintName = "ex1-1-4"
+            ReferencedContainer = "container:ex1-1-4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -94,10 +74,10 @@
          runnableDebuggingMode = "0">
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "7100A5EA1E021B4400CB471D"
-            BuildableName = "stp.app"
-            BlueprintName = "stp"
-            ReferencedContainer = "container:stp.xcodeproj">
+            BlueprintIdentifier = "ACD02CCC1E0AC35D0007A6CF"
+            BuildableName = "ex1-1-4"
+            BlueprintName = "ex1-1-4"
+            ReferencedContainer = "container:ex1-1-4.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

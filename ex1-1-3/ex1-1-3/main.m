@@ -25,7 +25,7 @@ int main(int argc, const char * argv[]) {
         NSLog(@"5より大きい");
     }
     
-    
+
     //if else if 文
     NSInteger b = 2;
     
@@ -56,7 +56,7 @@ int main(int argc, const char * argv[]) {
     for (NSString *num in lists) {
         NSLog(@"%@",num);
     }
-
+    
     
     //switch
     NSInteger num = 1;
