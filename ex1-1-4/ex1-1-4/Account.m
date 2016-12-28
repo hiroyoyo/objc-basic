@@ -1,6 +1,6 @@
 //
 //  Account.m
-//  ex1-1-4
+//  ex1-1-5
 //
 //  Created by 佐野浩代 on 2016/12/21.
 //  Copyright © 2016年 佐野浩代. All rights reserved.
@@ -27,5 +27,16 @@
     }else{
         NSLog(@"%@さんは%@が得意な%zd歳です。",_name,_language,_age);
     }
+}
+
+-(void) canObj_c{
+    NSLog(@"%@Obj-Cができる" , _name);
+}
+
+-(void) join{
+    FavoriteProgrammingLanguage *favorite = [[FavoriteProgrammingLanguage alloc]init];
+    favorite.delegate = self;
+    [favorite joinIntern];
+    
 }
 @end
