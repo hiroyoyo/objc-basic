@@ -9,7 +9,7 @@
 #ifndef Account_h
 #define Account_h
 #import <Foundation/Foundation.h>
-#import "FavoriteProgrammingLanguage.h"
+#import "FavoriteProgrammingLanguageDelegate.h"
 
 
 @interface Account : NSObject<FavoriteProgrammingLanguageDelegate>
